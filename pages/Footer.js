@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className=' bg-red-800 flex justify-center'>
+    <div className=' bg-yellow-500 flex justify-center'>
         <div className='w-2/6 border-2'>A</div>
         <div className='w-2/6 border-2 p-5'>
             <h2 className=' text-sm text-center text-white underline'>LIENS RAPIDES</h2> <br/>
