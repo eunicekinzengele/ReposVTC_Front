@@ -26,7 +26,7 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <div className=" md:border-stone-950 justify-between  md:border-2 flex ">
+      <div className="  justify-between  flex ">
         <div className=" md:bg-slate-600 md:w-1/5 md:flex md:items-center md:justify-center">
           A{" "}
           {/* <Image className=" mx-auto h-24 w-24 object-cover" alt="logo" src={logovtc}/> */}
