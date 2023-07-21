@@ -17,13 +17,13 @@ export default function HeroBar() {
           </div>
         </div>
         <div className=" w-full flex justify-center pt-80 absolute  z-10">
-          <div className=" shadow-lg shadow-black/50 bg-white w-4/5 h-48 flex flex-wrap gap-7 justify-center	">
-            <button  className=" w-64 h-10 bg-amber-400">A</button>
-            <button  className=" w-64 h-10 bg-amber-600">A</button>
-            <button  className=" w-64 h-10 bg-amber-500">A</button>
-            <button  className=" w-64 h-10 bg-amber-700">A</button>
-            <button  className=" w-64 h-10 bg-amber-800">A</button>
-            <button  className=" w-64 h-10 bg-amber-900">A</button>
+          <div className=" shadow-lg shadow-black/50 bg-white w-4/5 h-48 flex flex-wrap  justify-center	">
+            <button  className=" w-64 bg-amber-400">lorem ipipppppkkkkkkkkkkkkk</button>
+            <button  className=" w-64  bg-amber-600">A</button>
+            <button  className=" w-64  bg-amber-500">A</button>
+            <button  className=" w-64  bg-amber-700">A</button>
+            <button  className=" w-64  bg-amber-800">A</button>
+            <button  className=" w-64 bg-amber-900">A</button>
             <div>
                 <button className=" bg-orange text-sm px-5 py-1 text-white font-semibold rounded-full">Reserver</button>
             </div>

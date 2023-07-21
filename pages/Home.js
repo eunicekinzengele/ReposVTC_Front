@@ -9,6 +9,7 @@ export default function Home() {
   return (
     <>
        <Topbar/>
+       <Header/>
        <HeroBar/>
        <FleetOfVehicles/>
        <Footer/>
