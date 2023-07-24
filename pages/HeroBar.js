@@ -16,41 +16,88 @@ export default function HeroBar() {
             </h1>
           </div>
         </div>
-        <div className=" w-full flex justify-center pt-80 absolute  z-10">
-          <div className=" shadow-lg shadow-black/50 bg-white w-4/5 h-48 flex flex-wrap  justify-center	">
-            <button  className=" w-64 bg-amber-400">lorem ipipppppkkkkkkkkkkkkk</button>
-            <button  className=" w-64  bg-amber-600">A</button>
-            <button  className=" w-64  bg-amber-500">A</button>
-            <button  className=" w-64  bg-amber-700">A</button>
-            <button  className=" w-64  bg-amber-800">A</button>
-            <button  className=" w-64 bg-amber-900">A</button>
+        <div className=" w-full flex justify-center items-center  pt-80 absolute  z-10">
+          <div className=" shadow-lg shadow-black/50 bg-white w-4/5 h-48 space-y-7 space-x-4 items-center pt-7 ">
+            <div className="flex items-center justify-center space-x-4">
+              <input
+                className="  placeholder:italic placeholder:text-slate-400 block bg-white border border-gray-300 w-44 h-12 py-2 pl-3 pr-3 shadow-sm focus:outline-none focus:border-orange focus:ring-orange focus:ring-1 sm:text-sm"
+                placeholder="Lieu de départ..."
+                type="text"
+                name="search"
+              />
+
+              <input
+                className=" border-2 bg-gray-200 border-gray-300 h-12 w-44 decoration-none focus:border-orange focus:ring-orange focus:ring-1 px-3 "
+                type="time"
+                id="appt"
+                name="appt"
+                min="09:00"
+                max="18:00"
+                required
+              />
+
+              <input
+                className=" border-2 bg-gray-200 border-gray-300 h-12 w-44 decoration-none focus:border-orange focus:ring-orange focus:ring-1 px-3"
+                type="date"
+                id="start"
+                name="trip-start"
+                value="2018-07-22"
+                min="2018-01-01"
+                max="2018-12-31"
+              />
+
+              <select
+                id="currency"
+                name="currency"
+                className=" border-2 text-gray-500 bg-gray-200 border-gray-300 h-12 w-44 decoration-none focus:border-orange focus:ring-orange  focus:ring-1 px-3"
+              >
+                <option>Nombre de jours</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+            </div>
             <div>
-                <button className=" bg-orange text-sm px-5 py-1 text-white font-semibold rounded-full">Reserver</button>
+              <button className=" bg-orange text-sm px-5 py-1 text-white font-semibold rounded-full">
+                Reserver
+              </button>
             </div>
           </div>
         </div>
       </div>
-      <div className="  h-52">
-      </div>
+      <div className="  h-52"></div>
       <div className=" flex justify-center py-5 pb- space-x-7">
         <div className=" bg-white w-56 h-56 rounded-xl text-left p-5 space-y-3  shadow-2xl shadow-black/50">
-            <div><ImUsers className=" text-orange text-5xl"/></div>
-            <h2 className=" font-semibold text-sm">Une équipe d’experts</h2>
-            <p className=" text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <div>
+            <ImUsers className=" text-orange text-5xl" />
+          </div>
+          <h2 className=" font-semibold text-sm">Une équipe d’experts</h2>
+          <p className=" text-xs">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+          </p>
         </div>
         <div className=" bg-white w-56 h-56 rounded-xl text-left p-5 space-y-3  shadow-2xl shadow-black/50">
-            <div><GiReceiveMoney className=" text-orange text-5xl"/></div>
-            <h2 className=" font-semibold text-sm">Prix abordable</h2>
-            <p className=" text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <div>
+            <GiReceiveMoney className=" text-orange text-5xl" />
+          </div>
+          <h2 className=" font-semibold text-sm">Prix abordable</h2>
+          <p className=" text-xs">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+          </p>
         </div>
         <div className=" bg-white w-56 h-56 rounded-xl text-left p-5 space-y-3  shadow-2xl shadow-black/50">
-            <div><AiFillCar className=" text-orange text-5xl"/></div>
-            <h2 className=" font-semibold text-sm">Service de qualité</h2>
-            <p className=" text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <div>
+            <AiFillCar className=" text-orange text-5xl" />
+          </div>
+          <h2 className=" font-semibold text-sm">Service de qualité</h2>
+          <p className=" text-xs">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+          </p>
         </div>
-       
       </div>
-
     </div>
   );
 }

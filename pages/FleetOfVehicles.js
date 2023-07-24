@@ -116,6 +116,7 @@ export default function FleetOfVehicles() {
           </div>
         </div>
       </div>
+
     </div>
   );
 }
