@@ -2,7 +2,7 @@ import React from "react";
 
 export default function DescriptionSteps() {
   return (
-    <div className=" w-full h-72 space-y-3 px-10 py-8">
+    <div className=" w-full h-72 space-y-3 px-10 py-">
       <div className=" flex items-center px-14 space-x-3">
         <div className=" bg-yellow-500 w-14 h-14 rounded-full flex justify-center items-center text-white font-semibold ">01</div>
         <div> 
