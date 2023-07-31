@@ -9,7 +9,7 @@ import fleche from "../Images/fleche.png";
 
 export default function () {
   return (
-    <div>
+    <div className=" pt-12">
       <div className=" w-full h-40 px-24 flex justify-between items-center">
         <h1 className=" text-3xl">
           Le transfert aéroport, comment <br /> ça marche?
