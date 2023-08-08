@@ -43,7 +43,7 @@ export default function HeroBarAirportTranfert() {
                 max="2018-12-31"
               />
 
-              <select
+              {/* <select
                 id="currency"
                 name="currency"
                 className=" border-2 text-gray-500 bg-gray-200 border-gray-300 h-12 w-44 decoration-none focus:border-orange focus:ring-orange  focus:ring-1 px-3"
@@ -52,7 +52,7 @@ export default function HeroBarAirportTranfert() {
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
-              </select>
+              </select> */}
             </div>
             <div>
               <button className=" bg-orange text-sm px-5 py-1 text-white font-semibold rounded-full">

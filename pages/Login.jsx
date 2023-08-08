@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Login() {
   return (
@@ -23,9 +24,11 @@ export default function Login() {
               type="password"
               name="userName"
             />
+            <Link href="Home2">
             <button className=" bg-orange w-48 h-8 text-sm px-5 py-1 text-white font-semibold rounded-full">
-                Reserver
+                Connecter
               </button>
+              </Link>
           </div>
         </div>
       </div>

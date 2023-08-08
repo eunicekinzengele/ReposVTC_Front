@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function HeroBar() {
   return (
@@ -55,9 +56,11 @@ export default function HeroBar() {
               </select>
             </div>
             <div>
+              <Link href="RetailsCarPage">
               <button className=" bg-orange text-sm px-5 py-1 text-white font-semibold rounded-full">
                 Reserver
               </button>
+              </Link>
             </div>
           </div>
         </div>

@@ -8,6 +8,7 @@ import { TbSettingsCog } from "react-icons/tb";
 import { FaTachometerAlt } from "react-icons/fa";
 import { BsFillPersonFill } from "react-icons/bs";
 import { IconName } from "react-icons/fa";
+import Link from "next/link";
 
 export default function CarsRetails() {
   return (
@@ -105,9 +106,11 @@ export default function CarsRetails() {
               <p className=" text-sm">Prix pour 3 jours:</p>
               <p className=" text-base font-medium">450 $</p>
               <div>
+                <Link href="PaymentPage">
               <button className=" bg-orange text-sm px-5 py-1 text-white font-semibold rounded-full">
                 Reserver
               </button>
+              </Link>
               </div>
             </div>
           </div>

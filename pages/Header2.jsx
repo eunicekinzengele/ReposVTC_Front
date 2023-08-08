@@ -2,9 +2,9 @@ import React from "react";
 import Image from "next/image";
 import logovtc from "../Images/logovtc.png";
 import Link from "next/link";
-import AirportTransfertPage from "./AirportTransfertPage";
+import { BsPersonCircle } from "react-icons/bs";
 
-export default function Header() {
+export default function Header2() {
   return (
     <div>
       <div className=" w-full">
@@ -62,9 +62,9 @@ export default function Header() {
             </ul>
           </div>
           <div className=" md:w-1/5 md:flex md:items-center">
-          <Link href="Login">
-            <button class="rounded-full bg-orange md:text-sm text-white font-semibold md:p-1 md:px-2">
-              Connexion|Inscription
+          <Link href="">
+            <button class="rounded-full flex items-center space-x-2 bg-orange md:text-sm text-white font-semibold md:p-1 md:px-2">
+              <BsPersonCircle/> <pan>Eunice</pan>
             </button>
             </Link>
           </div>
