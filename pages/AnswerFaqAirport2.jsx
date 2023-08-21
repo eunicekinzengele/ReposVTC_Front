@@ -5,7 +5,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import Link from "next/link";
 import Footer from "./Footer";
 
-export default function AnswerFaqAirport() {
+export default function AnswerFaqAirport2() {
   return (
     <div className=" w-full h-auto p-y">
       <Topbar />
