@@ -10,8 +10,7 @@ export default function Header() {
       <div className=" w-full">
         <div className=" flex justify-between items-center  h-20 ">
           <div className=" h-20 w-36 pl-7 ml-3 flex justify-center items-center overflow-hidden">
-            <Link href="Home"> 
-              
+            <Link href="Home">
               <Image className="  " alt="logo" src={logovtc} />
             </Link>
           </div>
@@ -19,63 +18,68 @@ export default function Header() {
           <div class=" hidden w-full md:block md:w-auto" id="navbar-default ">
             <ul class=" md:p-7 pt-3 items-center  text-sm font-medium flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
-              <Link href="Home">
-                <a
-                  href="#"
-                  class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-orange md:p-0 dark:text-white md:dark:text-blue-500"
-                  aria-current="page"
-                >
-                  Location véhicule
-                </a>
+                <Link href="Home">
+                  <a
+                    href="#"
+                    class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-orange md:p-0 dark:text-white md:dark:text-blue-500"
+                    aria-current="page"
+                  >
+                    Location véhicule
+                  </a>
                 </Link>
               </li>
               <li>
-              <Link href="AirportTransfertPage">
-                <a
-                  href="#"
-                  class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >
-                  Transfert aéroport
-                </a>
+                <Link href="AirportTransfertPage">
+                  <a
+                    href="#"
+                    class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >
+                    Transfert aéroport
+                  </a>
                 </Link>
               </li>
               <li>
-              <Link href="ListOfVehiclesPage">
-                <a
-                  href="#"
-                  class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >
-                  Véhicules
-                </a>
+                <Link href="ListOfVehiclesPage">
+                  <a
+                    href="#"
+                    class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >
+                    Véhicules
+                  </a>
                 </Link>
               </li>
               <li>
-              <Link href="ContactPage">
-                <a
-                  href="#"
-                  class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >
-                  Contact
-                </a>
+                <Link href="ContactPage">
+                  <a
+                    href="#"
+                    class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >
+                    Contact
+                  </a>
                 </Link>
               </li>
               <li>
-              <Link href="FaqAirportPage">
-                <a
-                  href="#"
-                  class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >
-                  FAQ
-                </a>
+                <Link href="FaqAirportPage">
+                  <a
+                    href="#"
+                    class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >
+                    FAQ
+                  </a>
                 </Link>
               </li>
             </ul>
           </div>
-          <div className=" md:w-1/5 md:flex md:items-center">
-          <Link href="Login">
-            <button class="rounded-full bg-orange md:text-sm text-white font-semibold md:p-1 md:px-2">
-              Connexion|Inscription
-            </button>
+          <div className=" md:w-1/4 space-x-3	 md:flex md:items-center ">
+            <Link href="Login">
+              <button class="rounded-full border border-orange md:text-sm text-orange font-semibold md:p-2 md:px-5 ">
+                Connexion
+              </button>
+            </Link>
+            <Link href="Login">
+              <button class="rounded-full bg-orange md:text-sm text-white font-semibold md:p-2 md:px-5 ">
+                Inscription
+              </button>
             </Link>
           </div>
           <button

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 export default function example() {
     const [selected, setSelected]= useState(null)
@@ -36,9 +37,9 @@ export default function example() {
                 <div className=" border-2 border-black mb-5 w-52">
                     <div className=" bg-amber-300 flex justify-between items-center px-2 cursor-pointer" onClick={() => toggle (i)}>
                         <h2>{item.question}</h2>
-                        <span>{selected === i ? '-' : '+'}</span>
+                        <span>{selected === i ? <IoIosArrowUp /> : <IoIosArrowDown/>}</span>
                     </div>
-                    <div className="{selected === i ? ' bg-red-400 overflow-hidden ease-out hidden   ' : '  bg-red-400 block '}">{item.answer}</div>
+                    <div className={ i === selected ? 'block' : 'hidden' }>{item.answer}</div>
                 </div>
         )
          )}

@@ -4,7 +4,7 @@ import logovtc from "../Images/logovtc.png";
 
 export default function Footer() {
   return (
-    <div className=" bg-zinc-900 flex justify-center h-72 ">
+    <div className=" bg-zinc-700 flex justify-center h-72 ">
       <div className="w-2/6  text-white pl-20 space-y-4  pt-10 ">
         <div className=" h-20 w-36 pl-7 ml-3 flex justify-center items-center overflow-hidden">
           <Image className=" " alt="logo" src={logovtc} />

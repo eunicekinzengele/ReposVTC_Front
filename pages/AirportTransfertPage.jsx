@@ -7,6 +7,7 @@ import Header from './Header'
 import HeroBarAirportTranfert from './HeroBarAirportTranfert'
 import StepsTransfert from './StepsTransfert'
 import Footer from './Footer'
+import PresentationAirportTrasfert from './PresentationAirportTrasfert'
 
 export default function AirportTransfertPage() {
   return (
@@ -14,10 +15,11 @@ export default function AirportTransfertPage() {
         <TopBar/>
         <Header/>
         <HeroBarAirportTranfert/>
+        <PresentationAirportTrasfert/>
         <DescriptionAirportTransfert/>
         <StepsTransfert/>
         <DescriptionSteps/>
-        <FaqAirport/>
+        {/* <FaqAirport/> */}
        <Footer/>
     </div>
   )
