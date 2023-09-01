@@ -9,6 +9,13 @@ module.exports = {
   "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    // fontFamily: {
+    //   'sans': ['ui-sans-serif', 'system-ui', ...],
+    //   'serif': ['ui-serif', 'Georgia', ...],
+    //   'mono': ['ui-monospace', 'SFMono-Regular', ...],
+    //   'display': ['Oswald', ...],
+    //   'body': ['"Open Sans"', ...],
+    // },
     extend: {
       dropShadow: {
         '3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',

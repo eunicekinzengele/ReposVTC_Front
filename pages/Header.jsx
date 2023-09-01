@@ -9,7 +9,7 @@ export default function Header() {
     <div>
       <div className=" w-full">
         <div className=" flex justify-between items-center  h-20 ">
-          <div className=" h-20 w-36 pl-7 ml-3 flex justify-center items-center overflow-hidden">
+          <div className=" md:h-20 md:w-36 w-28 h-14 pl-3  md:pl-7  md:ml-3 flex justify-center items-center overflow-hidden">
             <Link href="Home">
               <Image className="  " alt="logo" src={logovtc} />
             </Link>
@@ -72,12 +72,12 @@ export default function Header() {
           </div>
           <div className=" md:w-1/4 space-x-3	 md:flex md:items-center ">
             <Link href="Login">
-              <button class="rounded-full border border-orange md:text-sm text-orange font-semibold md:p-2 md:px-5 ">
+              <button class="rounded-full border text-sm border-orange md:text-sm text-orange font-semibold p-2 md:p-2 md:px-5 ">
                 Connexion
               </button>
             </Link>
             <Link href="Login">
-              <button class="rounded-full bg-orange md:text-sm text-white font-semibold md:p-2 md:px-5 ">
+              <button class="rounded-full bg-orange text-sm md:text-sm p-2 text-white font-semibold md:p-2 md:px-5 ">
                 Inscription
               </button>
             </Link>
@@ -85,7 +85,7 @@ export default function Header() {
           <button
             data-collapse-toggle="navbar-default"
             type="button"
-            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            class="inline-flex items-center p-2 w-10 mr-3 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-default"
             aria-expanded="false"
           >
