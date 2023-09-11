@@ -6,7 +6,7 @@ export default function HeroBar() {
   return (
     <div className=" text-center pb-20">
       <div className=" bg-[url('../Images/HeroImg.png')] bg-no-repeat bg-center bg-cover object-contain relative w-full h-96 ">
-        <div className="  absolute bottom-0 right-0 left-0 w-full h-full bg-black/40 pt-20 space-y-16  justify-center text-white">
+        <div className="  absolute bottom-0 right-0 left-0 w-full h-full bg-black/40 pt-14 md:pt-20 space-y-10 md:space-y-16  justify-center text-white">
           <div className=" text-center space-y-4">
             <p className=" text-base font-bold">Véhicule de transport avec chauffeur</p>
             <h1 className=" text-3xl font-bold">
@@ -14,11 +14,12 @@ export default function HeroBar() {
               <span className=" text-orange">véhicule</span>
             </h1>
           </div>
-          <div className=" w-full flex justify-center items-center z-10">
-            <div className=" py-3 shadow-lg shadow-black/50 justify-center bg-white w-10/12 flex text-black rounded-full h-20  ">
+          <div className=" w-full flex justify-center items-center z-10 ">
+            <div className=" w-9/12 h-36 md:py-3 shadow-lg shadow-black/50 justify-center rounded-lg bg-white/90 md:bg-white  md:bg-white/90  md:w-10/12 md:flex text-black md:rounded-full md:h-20  ">
+              
               <div className=" w-52 border-r-2 border-black/20 flex items-center px-3 ">
                 <input
-                  className="  placeholder:italic outline-none w-44 h-9 px-2 placeholder:text-slate-400 block bg-white   sm:text-sm"
+                  className="  placeholder:italic outline-none w-44 h-9 px-2 placeholder:text-slate-400 block bg-white/90   sm:text-sm"
                   placeholder="Lieu de départ..."
                   type="text"
                   name="search"
