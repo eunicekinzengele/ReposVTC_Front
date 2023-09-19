@@ -137,7 +137,7 @@ export default function CarsRetails() {
                 </div>
                 <div className=" flex space-x-2">
                   <TbSettingsCog className=" text-orange" />
-                  <p className=" text-xs">Automatique</p>
+                  <p className=" text-xs">Bagage</p>
                 </div>
                 <div className=" flex space-x-2">
                   <FaTachometerAlt className=" text-orange" />

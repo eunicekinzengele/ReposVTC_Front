@@ -1,6 +1,8 @@
-import React from "react";
+import {React} from "react";
 import Link from "next/link";
 import { Select, Option } from "@material-tailwind/react";
+import DatePickerComponent from "./DatePickerComponent";
+import Timepicker from "./Timepicker";
 
 export default function HeroBar() {
   return (
@@ -15,7 +17,7 @@ export default function HeroBar() {
             </h1>
           </div>
           <div className=" w-full flex justify-center items-center z-10 ">
-            <div className=" w-9/12 h-36 md:py-3 shadow-lg shadow-black/50 justify-center rounded-lg bg-white/90 md:bg-white  md:bg-white/90  md:w-10/12 md:flex text-black md:rounded-full md:h-20  ">
+            <div className=" w-9/12 h-36 md:py-3 shadow-lg shadow-black/50 justify-center rounded-lg bg-white/90 md:bg-white  md:w-10/12 md:flex text-black md:rounded-full md:h-20  ">
               
               <div className=" w-52 border-r-2 border-black/20 flex items-center px-3 ">
                 <input
@@ -25,8 +27,12 @@ export default function HeroBar() {
                   name="search"
                 />
               </div>
-              <div className=" w-36 border-r-2 border-black/20">A</div>
-              <div className=" w-36 border-r-2 border-black/20">A</div>
+              <div className=" w-36 border-r-2 border-black/20 flex justify-center items-center">
+                <DatePickerComponent/>
+              </div>
+              <div className=" w-36 border-r-2 border-black/20 flex justify-center items-center">
+                <Timepicker/>
+              </div>
               <div className=" w-36 border-r-2 border-black/20 px-2 flex items-center">
                 <Select className=" text-orange justify-between space-x-24 outline-none px-3 flex items-center">
                   <Option>jours</Option>
